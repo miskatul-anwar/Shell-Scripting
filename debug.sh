@@ -1,7 +1,5 @@
+name=$1
 echo "----------Provided By: Miskatul Anwar----------" | lolcat
-echo  -e "\033[92m|||||||||||||||||||||||||||||||||||||||||||||||\033[0m"
-echo -e "\033[31;47mEnter the program name to debug:\033[0m \c"
-read name
 function rotating_bar() {
     local chars="/-\|"
     local SECONDS_LIMIT=2
