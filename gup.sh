@@ -3,14 +3,14 @@ echo "https://github.com/miskatul-anwar" | lolcat
 a=$(date)
 b=$(pwd)
 lim=$(tput cols)
-for ((i = 0; i <= $lim; i++)); do
+for ((i = 1; i <= $lim; i++)); do
 	printf "="
 done
 printf "\n"
 git add .
 git commit -m "$a"
 git push origin main
-for ((i = 0; i <= $lim; i++)); do
+for ((i = 1; i <= $lim; i++)); do
 	printf "="
 done
 printf "\n"
