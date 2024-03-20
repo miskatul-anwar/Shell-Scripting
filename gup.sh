@@ -8,7 +8,14 @@ for ((i = 1; i <= $lim; i++)); do
 done
 printf "\n"
 git add .
+for ((i = 1; i <= $lim; i++)); do
+	printf "-"
+done
+printf "\n"
 git commit -m "$a"
+for ((i = 1; i <= $lim; i++)); do
+	printf "-"
+done
 git push origin main
 for ((i = 1; i <= $lim; i++)); do
 	printf "="
