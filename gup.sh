@@ -1,6 +1,8 @@
 echo "Miskatul Anwar" | lolcat
 username=$(git config user.name)
-echo "https://github.com/$username" | lolcat
+email=$(git config user.email)
+echo "https://github.com/$username ==> 🤖" | lolcat
+echo "💌 <-- $email" | lolcat
 a=$(date)
 b=$(pwd)
 lim=$(tput cols)
