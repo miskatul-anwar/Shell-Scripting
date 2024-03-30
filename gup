@@ -13,6 +13,9 @@ printf "\n"
 git add .
 printf "\n"
 git commit -m "$a"
+for ((i = 1; i <= $lim; i++)); do
+	printf "-"
+done
 git push origin main
 for ((i = 1; i <= $lim; i++)); do
 	printf "="
