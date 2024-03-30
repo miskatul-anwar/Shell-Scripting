@@ -1,5 +1,6 @@
 echo "Miskatul Anwar" | lolcat
-echo "https://github.com/miskatul-anwar" | lolcat
+username=$(git config user.name)
+echo "https://github.com/$username" | lolcat
 a=$(date)
 b=$(pwd)
 lim=$(tput cols)
