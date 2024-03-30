@@ -13,10 +13,11 @@ printf "\n"
 git add .
 printf "\n"
 git commit -m "$a"
+printf "\n"
 git push origin main
+printf "\n"
 for ((i = 1; i <= $lim; i++)); do
 	printf "="
 done
-printf "\n"
 echo "Process:: $b --> main" | lolcat
 echo "Successfull! 🤠 "
