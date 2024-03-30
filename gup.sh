@@ -11,9 +11,7 @@ for ((i = 1; i <= $lim; i++)); do
 done
 printf "\n"
 git add .
-printf "\n"
 git commit -m "$a"
-printf "\n"
 git push origin main
 printf "\n"
 for ((i = 1; i <= $lim; i++)); do
