@@ -16,6 +16,6 @@ case "$opt" in
 	echo "Deleted $name from $dir" >>~/LostDir.txt
 	;;
 "2")
-	echo "Files are not deleted, Yay ! 😆" | lolcat
+	echo "Files are not deleted, Yay! 😆" | lolcat
 	;;
 esac
