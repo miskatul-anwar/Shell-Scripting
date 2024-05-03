@@ -25,6 +25,7 @@ n=$(tput cols)
 for ((i = 1; i <= n; i++)); do
 	printf "-"
 done
+printf "\n"
 
 if [[ "$filename" == *.c ]]; then
 	filename_without_extension="${filename%.c}"
@@ -50,9 +51,9 @@ elif [[ "$filename" == *.cs ]]; then
 	chmod +x $filename_with_exe_extension
 	./$filename_with_exe_extension
 else
-	echo "Unknown file type or no file extension." | lolcat
+	cowsay "Unknown file type or no file extension." | lolcat
 fi
-
+printf "\n"
 for ((i = 1; i <= n; i++)); do
 	printf "-"
 done
