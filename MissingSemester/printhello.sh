@@ -1,0 +1,4 @@
+printhello() {
+	echo "hello"
+}
+printhello
